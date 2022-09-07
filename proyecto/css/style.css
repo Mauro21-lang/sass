@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+*{
+    margin :0;
+    padding :0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+
+header{
+    background-color: #b1e7d5;
+    }
+ 
+
+.menu{
+    display: flex;
+    background-color: #b1e7d5;
+    list-style-type: none;
+    padding-block: 10px;
+    padding-inline: 130px;
+    position:sticky;
+    top: 0;
+    justify-content: left;  
+}
+
+.menu__item{ 
+  display: inline-block;
+    margin-right: 30px;
+    margin-block: 10px;
+
+    }
+.menu__item a{
+    color: black;
+    text-decoration: none;
+ } 
+.menu__item a:hover {
+    text-decoration: underline black;
+}
+main {
+    padding: 40px;
+}
+.contenedor :hover{
+    transform: scaleY(1.1);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+     rgba(0, 0, 0, 0.12) 0px -12px 30px,
+      rgba(0, 0, 0, 0.12) 0px 4px 6px,
+     rgba(0, 0, 0, 0.17) 0px 12px 13px,
+      rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+.contenedor{
+    transition: transform 1s;
+}
+
+
+
+.par1{
+    border-radius: 15px;
+    padding: 15px;
+    background-color: #b1e7d5;
+    width: 29%;
+    display: inline-block;
+    flex-direction: column;
+    align-items: center;
+    margin-inline: 17px;
+    margin-block: 15px;
+    border: 2px solid rgb(56, 13, 13);
+
+    
+}
+.par__1{
+    width: 100%;
+    }
+.par__2{
+    font-size: 15px;
+}
+.par__3{
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+.par1,
+.par__1,
+.par__2,
+.par__3 {
+    margin-bottom: 10px;
+}
+.pie{
+    padding-left: 20px;
+    background-color: #b1e7d5;
+    color: black;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 40px;
+    
+}
+.pie2 {
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+    gap: 10px;
+   
+}
+.menu__img{
+    display: flex;
+    margin: -30px 30px -40px -110px;
+   height: 130px;
+}
+ 
+/***** compra tus juegos ***/
+    .menu2{
+        position: sticky;
+        display: inline;
+        margin-right: 20px;
+        margin-left: 20px;
+        padding: 6px 10px 0px 0px;
+
+        }
+    .menu2 a{
+        
+        text-decoration: none;
+        color: black;
+    }
+    .menu2 a:hover {
+        text-decoration: underline black;
+    }
+    .juegos:hover{
+     transform: scale(1.1) translateY(-10px);
+
+    }
+    .juegos{
+        border-radius: 10px;
+        transition: transform 0.5s;
+        display: inline-block;
+        padding: 20px;
+        background-color: #b1e7d5;;
+        width: 29%;
+        
+        }
+    .juegos_img{
+        width: 100%;
+        border-radius: 30px;
+    }
+    .juego_text{
+        font-size: 3px;
+    }
+    .juego3{
+        border-radius: 7px;
+        margin-left: 3px  ;
+    }
+    .juegos_img,
+    .juego_text,
+    .juego3 {
+     margin-bottom: 10px;
+    }
+    .footer{
+        padding-left: 20px;
+    }
+    
+    /** info del desarrollador **/
+    
+    .imagenprincipal{
+        background-image: url(../imagenes/backround.jpg);
+        height: 91.6vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-inline: 150px;
+     }
+   .imagenprincipal h2{
+    font-size: larger 100px;
+   }
+   .imagenprincipal p{
+    text-align: center;
+   }
+
+  /*** lanzamientos **/
+
+  .bar{
+    background-color: #b1e7d5;
+    margin-left: 10px;
+    padding: 10px;
+    list-style-type: none;
+    
+  }
+   .bar__item{
+    display: inline-block;
+    margin-left: 20px;
+   }
+   .bar__item a{
+    text-decoration: none;
+    color: black;
+   }
+   .menu2 a:hover {
+    text-decoration: underline black;
+}
+ .vib  {
+    border-radius: 10px;
+    padding: 25px;
+    background-color: #b1e7d5;
+    width: 29%;
+    display: inline-block;
+    margin-inline: 20px;
+    margin-block: 50px;
+    border: 5px solid #00000067;
+ }
+ .vib_1{
+    width: 100%;
+ }
+ .fo2 {
+text-align: center;
+background-color: #b1e7d5;
+ }
+
+ /** formulario **/
+ body {
+    background-image: url(../imagenes/blu2.jfif);
+    
+     background-size: cover;  
+
+ }
+
+ .menu50{
+    display: flex;
+    background-color: #1d3770fa;
+    margin-left: 10px;
+    padding: 10px;
+    list-style-type: none;
+    
+ }
+  .menu__51{
+    display: inline-block;
+    margin-left: 20px;
+  }
+    .menu__51 a{
+        color: white;
+        text-decoration: none;
+        font-size: 16px;
+    }
+  
+.form-register{
+    width: 400px;
+    background-color: #1d3770fa;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-shadow: 7px 13px 37px #000 ;
+}
+.form-register h4{
+ font-size: 22px;
+ margin-bottom: 20px;
+}
+.control{
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 17px;
+    border: 1px solid  #1d3770fa;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+ .botton{
+    width: 50%;
+    border-radius: 5px;
+    padding: 5px 15px 5px 20px;
+    margin: 5px 5px 3px 5px;
+    font-size: 15px;
+ }
+ 
+
+ @media  screen and (max-width:768px) {
+ .contenedor{
+    display: flex;
+    flex-direction: column;
+ }   
+ nav ul li a {
+    font-size: 1.4em;
+ }
+ fieldset{
+    display: flex;
+    flex-direction: column;
+
+ 
+ }
+}
+@media screen and (max-width:768px){
+    .menu{
+        background-color: white;
+    }
+}
